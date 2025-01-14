@@ -56,6 +56,27 @@ The solution includes:
 3. **`PerformanceAnalysisQueries.sql`**  
    - **Purpose**: Provides detailed analysis of collected performance metrics, including job step summaries, query performance, and trends.  
    - **Designed for**: Ad-hoc execution in SQL Server Management Studio.
+  
+4. **`QueryAnalysisJobStepMetrics.sql`**  
+    - **Purpose**: Provides analysis of the `JobStepMetrics` table to detect trends, anomalies, and performance bottlenecks.  
+    - **Designated for**: Analyzing CPU, memory, and disk performance metrics captured from SQL Server jobs.
+
+5. **`ServerPerformanceScripts.sql`**  
+    - **Purpose**: Collects and summarizes server performance metrics, including CPU, memory, disk I/O, and wait statistics.  
+    - **Designated for**: Setting up automated performance monitoring in SQL Server environments.
+
+6. **`Top10MonthlyWorstQueries.sql`**  
+    - **Purpose**: Identifies the top 10 resource-intensive queries each month, helping DBAs focus on optimizing high-impact SQL workloads.  
+    - **Designated for**: Monthly query performance analysis.
+
+7. **`TopQueriesperDatabase.sql`**  
+    - **Purpose**: Highlights the most resource-intensive queries grouped by database, providing database-specific insights into query performance.  
+    - **Designated for**: Monitoring and improving query performance per database.
+8. **`TotalIOMetricsxDatabase.sql`**: Analyzes disk I/O metrics to identify storage performance bottlenecks.
+     - **Purpose** :
+       Analyzes disk I/O metrics, including read/write stalls and total I/O wait times, to identify potential bottlenecks.
+    - **Designated for**
+       Tracking and optimizing database storage performance.
 
 ---
 
